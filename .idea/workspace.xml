@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf4563aa-75e9-4f9a-b4be-bafd0544fd97" name="Default Changelist" comment="" />
+    <list default="true" id="bf4563aa-75e9-4f9a-b4be-bafd0544fd97" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-native-parallax-header/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-native-parallax-header/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-native-parallax-header/package.json" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -42,14 +47,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="16" />
-          <entry key="js" value="637" />
+          <entry key="js" value="652" />
           <entry key="json" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="637" />
+          <entry key="JavaScript" value="652" />
           <entry key="PLAIN_TEXT" value="16" />
         </counts>
       </usages-collector>
@@ -60,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ramesh2/src/AppParallax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="331" column="42" selection-start-line="331" selection-start-column="17" selection-end-line="331" selection-end-column="42" />
+            <state relative-caret-position="119">
+              <caret line="336" column="42" selection-start-line="336" selection-start-column="37" selection-end-line="336" selection-end-column="42" />
               <folding>
                 <element signature="e#3328#9108#0" />
               </folding>
@@ -93,6 +98,9 @@
       <replace>35</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -120,16 +128,16 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/node_modules/react-native-parallax-header/package.json" />
       <path value="$PROJECT_DIR$/ramesh2/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="804" />
     <option name="height" value="718" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -141,17 +149,6 @@
             <path>
               <item name="3rdixr" type="b2602c69:ProjectViewProjectNode" />
               <item name="3rdixr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="3rdixr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3rdixr" type="462c0819:PsiDirectoryNode" />
-              <item name="ramesh2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="3rdixr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3rdixr" type="462c0819:PsiDirectoryNode" />
-              <item name="ramesh2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -200,16 +197,15 @@
       <option name="presentableId" value="Default" />
       <updated>1562242032372</updated>
       <workItem from="1562242035402" duration="24272000" />
-      <workItem from="1562275200990" duration="3573000" />
+      <workItem from="1562275200990" duration="4853000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27845000" />
+    <option name="totallyTimeSpent" value="29125000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -222,7 +218,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -327,8 +323,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ramesh2/src/AppParallax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="331" column="42" selection-start-line="331" selection-start-column="17" selection-end-line="331" selection-end-column="42" />
+        <state relative-caret-position="119">
+          <caret line="336" column="42" selection-start-line="336" selection-start-column="37" selection-end-line="336" selection-end-column="42" />
           <folding>
             <element signature="e#3328#9108#0" />
           </folding>
