@@ -530,16 +530,51 @@ export default class AppParallax extends Component {
                                             <Text
                                                 style={this.state.currentTab == 2 ? styles.activeTextStyle : styles.inactiveTextStyle}
                                             >NMC</Text></TabHeading>}>
-                                            <Card>
-                                                <CardItem>
-                                                    <Body>
-                                                    <Text>
-                                                        TAB3-Now your project is ready for theme customization.
+                                        <Content>
 
-                                                    </Text>
-                                                    </Body>
-                                                </CardItem>
-                                            </Card>
+
+                                            {
+                                                (this.formatJSON(this.state.data) || []).map((item,index) => (
+
+                                                    <Card style={{borderRadius:20}}>
+                                                        <CardItem>
+                                                            <Body>
+
+                                                        <ListItem icon style={{borderColor:'#ccc',borderWidth:0, width:96+'%'}}>
+                                                            <Left>
+                                                                <Button style={{ backgroundColor: "#FF9501" }}>
+                                                                    {(item.symbol=='BTC')?(<Image style={{height:29,width:29,}}
+                                                                                                   source={require('./../assets/img/Bitcoin.png')}/>):
+                                                                        ((item.symbol=='LTC')?<Image style={{height:29,width:29,}}
+                                                                                                      source={require('./../assets/img/Litecoin.png')}/>:
+                                                                            ((item.symbol=='NMC')?<Image style={{height:29,width:29,}}
+                                                                                                          source={require('./../assets/img/Namecoin.png')}/>:
+                                                                                ((item.symbol=='TRC')?<Image style={{height:29,width:29,}}
+                                                                                                              source={require('./../assets/img/Terracoin.png')}/>:
+                                                                                    ((item.symbol=='PPC')?(<Image style={{height:29,width:29,}}
+                                                                                                                   source={require('./../assets/img/Peercoin.png')}/>):null))))}
+                                                                </Button>
+                                                            </Left>
+                                                            <Body>
+                                                             <Text style={{color:'#6b6b6b',fontSize:16}}>{item.name}</Text>
+                                                             <Text style={{ color:'#ccc',fontSize:10}}>Doing what you like will always keep you happy . .</Text>
+                                                            </Body>
+                                                            <Right>
+                                                                <Text>On</Text>
+
+                                                            </Right>
+                                                        </ListItem>
+
+                                                            </Body>
+                                                        </CardItem>
+                                                    </Card>
+                                                ))
+
+                                            }
+
+                                        </Content>
+
+
 
                                     </Tab>
 
@@ -551,12 +586,12 @@ export default class AppParallax extends Component {
 
                                         <Card style={{borderRadius:20}}>
                                             <CardItem header>
-                                                <Text>NativeBase</Text>
+                                                <Text>Crypto-Curency</Text>
                                             </CardItem>
                                             <CardItem>
                                                 <Body>
                                                 <Text>
-                                                    TAB4-Now your project is ready for theme customization.
+                                                    Crypto Example template view
 
                                                 </Text>
                                                 </Body>
@@ -574,7 +609,7 @@ export default class AppParallax extends Component {
                                             <CardItem>
                                                 <Body>
                                                 <Text>
-                                                    TAB4-Now your project is ready for theme customization.
+                                                    Crypto Example template view
 
                                                 </Text>
                                                 </Body>

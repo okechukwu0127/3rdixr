@@ -175,9 +175,17 @@ return(
                             <TouchableOpacity style={styles.iconLeft} onPress={() => {
                             }}>
                                 {/*<Text>{props.ImageTwick()}</Text>*/}
+                                {(props.symbol=='BTC')?(<Image style={{height:29,width:29,}}
+                                                               source={require('./../assets/img/Bitcoin.png')}/>):
+                                    ((props.symbol=='LTC')?<Image style={{height:29,width:29,}}
+                                                                  source={require('./../assets/img/Litecoin.png')}/>:
+                                        ((props.symbol=='NMC')?<Image style={{height:29,width:29,}}
+                                                                      source={require('./../assets/img/Namecoin.png')}/>:
+                                            ((props.symbol=='TRC')?<Image style={{height:29,width:29,}}
+                                                                          source={require('./../assets/img/Terracoin.png')}/>:
+                                                ((props.symbol=='PPC')?(<Image style={{height:29,width:29,}}
+                                                                               source={require('./../assets/img/Peercoin.png')}/>):null))))}
 
-                                <Image style={{height:29,width:29,}}
-                                       source={require('./../assets/img/Namecoin.png')}/>
                             </TouchableOpacity>
                             <View style={styles.iconRight} onPress={() => {
                             }}>

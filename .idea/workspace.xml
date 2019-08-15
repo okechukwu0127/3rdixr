@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf4563aa-75e9-4f9a-b4be-bafd0544fd97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ramesh2/jest.config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ramesh2/jest/setup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ramesh2/src/AppParallax.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ramesh2/src/AppParallax_old.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ramesh2/src/CryptoCard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ramesh2/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ramesh2/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ramesh2/android/app/src/main/java/com/ramesh2/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ramesh2/android/app/src/main/java/com/ramesh2/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ramesh2/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ramesh2/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ramesh2/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ramesh2/android/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ramesh2/assets/img/header_bg.fw.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ramesh2/assets/img/header_bg.fw.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ramesh2/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/ramesh2/ios/Podfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ramesh2/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ramesh2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ramesh2/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ramesh2/src/AppParallax.js" beforeDir="false" afterPath="$PROJECT_DIR$/ramesh2/src/AppParallax.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ramesh2/src/ParallaxHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/ramesh2/src/ParallaxHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ramesh2/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ramesh2/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ramesh2/src/CryptoCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/ramesh2/src/CryptoCard.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -70,14 +56,14 @@
           <entry key="Podfile" value="7" />
           <entry key="gradle" value="8" />
           <entry key="java" value="60" />
-          <entry key="js" value="3655" />
+          <entry key="js" value="3866" />
           <entry key="json" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="7" />
-          <entry key="JavaScript" value="3655" />
+          <entry key="JavaScript" value="3866" />
           <entry key="PLAIN_TEXT" value="75" />
         </counts>
       </usages-collector>
@@ -88,11 +74,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ramesh2/src/AppParallax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="261" column="16" selection-start-line="261" selection-start-column="16" selection-end-line="261" selection-end-column="16" />
+            <state relative-caret-position="85">
+              <caret line="542" column="111" selection-start-line="542" selection-start-column="111" selection-end-line="542" selection-end-column="111" />
               <folding>
                 <element signature="e#262#307#0" expanded="true" />
                 <element signature="e#566#752#0" expanded="true" />
+                <element signature="e#1391#3626#0" />
+                <element signature="e#8138#16594#0" />
               </folding>
             </state>
           </provider>
@@ -101,7 +89,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ramesh2/src/ParallaxHeader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
+            <state relative-caret-position="883">
               <caret line="112" column="86" selection-start-line="112" selection-start-column="86" selection-end-line="112" selection-end-column="86" />
             </state>
           </provider>
@@ -110,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ramesh2/src/CryptoCard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="181" column="67" selection-start-line="181" selection-start-column="67" selection-end-line="181" selection-end-column="67" />
+            <state relative-caret-position="138">
+              <caret line="173" column="53" selection-start-line="173" selection-start-column="53" selection-end-line="173" selection-end-column="85" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -164,7 +152,6 @@
       <find>tabDefaultBg</find>
       <find>UIManager</find>
       <find>SCREEN_HEIGHT</find>
-      <find>ListItem</find>
       <find>navBar_space_between</find>
       <find>Badge</find>
       <find>height</find>
@@ -178,6 +165,7 @@
       <find>RandomNumber</find>
       <find>ImageTwick</find>
       <find>ImageIcon</find>
+      <find>ListItem</find>
     </findStrings>
     <replaceStrings>
       <replace>40</replace>
@@ -232,7 +220,7 @@
       <path value="$PROJECT_DIR$/ramesh2/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="804" />
@@ -320,15 +308,15 @@
       <workItem from="1565616209102" duration="3928000" />
       <workItem from="1565726999359" duration="3253000" />
       <workItem from="1565730285479" duration="22754000" />
-      <workItem from="1565807765956" duration="21928000" />
+      <workItem from="1565807765956" duration="26949000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110534000" />
+    <option name="totallyTimeSpent" value="115555000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16815476" />
@@ -343,7 +331,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.31400967" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.23510467" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -514,30 +502,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ramesh2/src/ParallaxHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="883">
+          <caret line="112" column="86" selection-start-line="112" selection-start-column="86" selection-end-line="112" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ramesh2/src/CryptoCard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="181" column="67" selection-start-line="181" selection-start-column="67" selection-end-line="181" selection-end-column="67" />
+        <state relative-caret-position="138">
+          <caret line="173" column="53" selection-start-line="173" selection-start-column="53" selection-end-line="173" selection-end-column="85" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ramesh2/src/ParallaxHeader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="112" column="86" selection-start-line="112" selection-start-column="86" selection-end-line="112" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ramesh2/src/AppParallax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="261" column="16" selection-start-line="261" selection-start-column="16" selection-end-line="261" selection-end-column="16" />
+        <state relative-caret-position="85">
+          <caret line="542" column="111" selection-start-line="542" selection-start-column="111" selection-end-line="542" selection-end-column="111" />
           <folding>
             <element signature="e#262#307#0" expanded="true" />
             <element signature="e#566#752#0" expanded="true" />
+            <element signature="e#1391#3626#0" />
+            <element signature="e#8138#16594#0" />
           </folding>
         </state>
       </provider>
