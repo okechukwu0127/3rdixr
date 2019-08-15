@@ -8,6 +8,8 @@ import {Animated,Platform,StyleSheet,  Text,
     View,
     Image, TouchableOpacity} from "react-native";
 
+
+
 const styles = StyleSheet.create({
 
     container: {
@@ -72,10 +74,10 @@ export default class ParallaxHeader extends Component {
                     </TouchableOpacity>
                     <TouchableOpacity style={styles.iconRight} onPress={() => {
                     }}>
-                        <Text style={{fontSize:12,color:'white',paddingLeft:10}}>Over 1000 experiences</Text>
+                        <Text style={{fontSize:12,color:'white',paddingLeft:10}}>Market</Text>
                     </TouchableOpacity>
                 </View>
-                <Text style={styles.titleStyle}>Parallax Header ~</Text>
+                <Text style={styles.titleStyle}>Crypto Coin </Text>
 
 
                 <View style={[styles.navBar_space_between]}>
@@ -90,7 +92,7 @@ export default class ParallaxHeader extends Component {
                             </TouchableOpacity>
                             <TouchableOpacity style={styles.iconRight} onPress={() => {
                             }}>
-                                <Text style={{fontSize:15,color:'white',paddingLeft:0}}>Destination Location</Text>
+                                <Text style={{fontSize:15,color:'white',paddingLeft:0}}>LTC/USDIT</Text>
                             </TouchableOpacity>
                         </View>
 
@@ -102,11 +104,13 @@ export default class ParallaxHeader extends Component {
                         <View style={[styles.navBar]}>
 
                             <View style={styles.iconLeft}>
-                                <Image style={{height:25,width:25,}}
-                                                                 source={require('./assets/emotion_love.png')}/>
+
+
+                               <Image style={{height:25,width:25,}}
+                                                                 source={require('./../assets/img/Bitcoin.png')}/>
                             </View>
                             <View style={styles.iconRight}>
-                                <Text style={{color:'white'}}>325</Text>
+                                <Text style={{color:'white', fontSize:12,paddingLeft:6}}>325</Text>
                             </View>
                         </View>
 
